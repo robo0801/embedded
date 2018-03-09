@@ -4,7 +4,7 @@
 
 # 2. Arduino 구조
 ## 2.1 핀 배열
-![arduino_pin](https://www.makeall.com/data/file/manual/1893400515_75coKg2p_BEC6B5CEC0CCB3EB1234.png)
+![arduino_pin](https://raw.githubusercontent.com/robo0801/embedded/master/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/0309_%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8_%EA%B8%B0%EC%B4%88/arduino_pin.png)
 - 아두이노 핀은 GND, VCC, Digital, Analog 가 있다.
 * digital: 
 	- 사진 위쪽에 2번부터 13번까지가 digital 핀으로 사용할 수 있는 부분이다. 
