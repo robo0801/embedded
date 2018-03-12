@@ -5,7 +5,8 @@
 - 광 다이오드: p형 반도체와 n형 반도체의 접합 구조로 되어 있으며, p-n 접합부에 빛을 비추면 광전 효과에 의해 전류가 흐른다. 
 			이때 흐르는 전류는 빛의 세기에 비례함
 
-![광다이오드](https://raw.githubusercontent.com/robo0801/embedded/master/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/0312_%EC%A1%B0%EB%8F%84%EC%84%BC%EC%84%9C/pic/%EA%B4%91%EB%8B%A4%EC%9D%B4%EC%98%A4%EB%93%9C.png)
+<img src="https://raw.githubusercontent.com/robo0801/embedded/master/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/0312_%EC%A1%B0%EB%8F%84%EC%84%BC%EC%84%9C/pic/%EA%B4%91%EB%8B%A4%EC%9D%B4%EC%98%A4%EB%93%9C.png" width="400px" height="300px">
+![광다이오드]()
 
 
 # 2.CDS_LED_digital
