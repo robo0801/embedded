@@ -1,7 +1,7 @@
 # 1.CDS Sensor
 - 광센서, 조도센서로 불리며 광전효과를 이요하여 빛의 양을 알아내는 장치로 빛 신호를 전기 신호로 바꾸어 줌.
 
-![CDS_원리](https://raw.githubusercontent.com/robo0801/embedded/master/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/0312_%EC%A1%B0%EB%8F%84%EC%84%BC%EC%84%9C/pic/CDS_%EC%9B%90%EB%A6%AC.png){: width="100px" height="80px"}
+![CDS_원리](https://raw.githubusercontent.com/robo0801/embedded/master/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/0312_%EC%A1%B0%EB%8F%84%EC%84%BC%EC%84%9C/pic/CDS_%EC%9B%90%EB%A6%AC.png){: width="20" height="80"}
 
 - 광 다이오드: p형 반도체와 n형 반도체의 접합 구조로 되어 있으며, p-n 접합부에 빛을 비추면 광전 효과에 의해 전류가 흐른다. 
 			이때 흐르는 전류는 빛의 세기에 비례함
