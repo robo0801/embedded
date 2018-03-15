@@ -41,7 +41,7 @@ GPIO는 General-purpose input/output의 약자로, 사전에 약속되지 않은
 
 
 ## 5. 회로 구성하기
-<img src="./pic/회로_구성.jpg">
+<img src="./pic/circuits.jpg">
 - LED에서 긴 다리 (+)를 gpio 21번에 연결한다.
 - 짧은 쪽은 가장 가까운 그라운드(GND)에 연결해 준다.
 
