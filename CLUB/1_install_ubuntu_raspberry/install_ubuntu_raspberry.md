@@ -20,7 +20,7 @@
 - 이미지 입히는 프로그램인 etcher를 다운로드합니다.
 <https://etcher.io/>
 - etcher를 실행시켜 줍니다.
-<img src=" ">
+<img src="./pic/etcher.png">
 - 실행하고 select image를 눌러 다운받은 이미지를 선택해 줍니다.
 - 그다음 select drive에서 SD카드를 선택해 줍니다.
 - 마지막으로 Flash를 눌러줍니다.(약 10분 정도 걸립니다.)
