@@ -33,15 +33,15 @@ GPIO는 General-purpose input/output의 약자로, 사전에 약속되지 않은
 ## 4. 라즈베리파이 gpio 확인하기
 - 아래 사진은 라즈베리파이의 gpio 핀 입니다.
 - 40번 쪽이 usb 포트가 있는 곳 입니다.
-<>
+<img src="./pic/GPIO_Pi.png">
 
 - 자신의 gpio 확인
 ```$ gpio readall ```
-<>
+<img src="./pic/GPIO_WiringPi.png">
 
 
 ## 5. 회로 구성하기
-<>
+<img src="./pic/회로_구성.jpg">
 - LED에서 긴 다리 (+)를 gpio 21번에 연결한다.
 - 짧은 쪽은 가장 가까운 그라운드(GND)에 연결해 준다.
 
