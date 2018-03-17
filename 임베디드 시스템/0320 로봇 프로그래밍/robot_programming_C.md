@@ -5,12 +5,12 @@
 <img src="./pic/EV3_Core_Set.png">
 - RobotC 특징
 ```
-* 가장 널리 사용되는 C언어 기반의 문법으로 프로그래밍 가능
-* 최적의 성능을 제공하는 자체 최적화한 LEGO Mindstorms EV3 펌웨어 사용
-* 런탐이 디버깅 기능 제공
-* LEGO® Mindstorms® EV3뿐만 아니라 CORTEX, Arduino 등 다양한 로봇 플 랫폼을 지원 (플랫폼별 라이센스는 별도 구매)
-* RobotC는 상용 프로그램이지만 10일의 평가판 제공
-* 자연어 라이브러리 지원
+* 가장 널리 사용되는 C언어 기반의 문법으로 프로그래밍 가능 
+* 최적의 성능을 제공하는 자체 최적화한 LEGO Mindstorms EV3 펌웨어 사용 
+* 런탐이 디버깅 기능 제공 
+* LEGO® Mindstorms® EV3뿐만 아니라 CORTEX, Arduino 등 다양한 로봇 플 랫폼을 지원 (플랫폼별 라이센스는 별도 구매) 
+* RobotC는 상용 프로그램이지만 10일의 평가판 제공 
+* 자연어 라이브러리 지원 
 ```
 
 * 자연어 (Natural Langauge)?
