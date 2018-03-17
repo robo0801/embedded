@@ -28,12 +28,12 @@
 ### 2.1 Brick Sound
 
 - 피아노 건반을 참고하여 원하는 음을 1초 재생한다.
-<img src="./pic/brick_sound1.png">
 	- brick_sound1.c
+<img src="./pic/brick_sound1.png">	
 
 - '학교 종이 땡땡땡' 연주
-<img src="./pic/brick_sound2.png">
 	- brick_sound2.c
+<img src="./pic/brick_sound2.png">
 
 - playSound(사운드 이름);
 	- brick_sound3.c
@@ -97,111 +97,50 @@ waitUntilMotorStop(모터이름);
 
 #### 라지 모터
 - B와 C 포트에 연결된 라지 모터를 2초동안 30 파워로 전진
-```
-task main() {
-	motor[motorB] = 30;
-	motor[motorC] = 30;
-	wait1Msec(2000);
-}
-```
+	- large_motor1.c
+
 - B와 C 포트에 연결된 라지 모터를 2초동안 30 파워로 후진
-```
-task main() {
-	motor[motorB] = -30;
-	motor[motorC] = -30;
-	wait1Msec(2000);
-}
-```
+	- large_motor2.c
 
 #### 회전
 - 스윙턴(Swing turn)
-```
-task main() {
-	motor[motorB] = 50;
-	motor[motorC] = 0;
-	wait1Msec(2000);
-}
-```
+	- swing_turn.c
+
 - 포인트 턴(Point turn)
-```
-task main() {
-	motor[motorB] = 50;
-	motor[motorC] = -50;
-	wait1Msec(2000);
-}
-```
+	- point_turn.c
+
 - 커브 턴(Curve turn)
-```
-task main() {
-	motor[motorB] = 50;
-	motor[motorC] = 20;
-	wait1Msec(2000);
-}
-```
+	- curve_turn.c
 
 #### Encoder
 - 50의 속도로 바퀴를 360도 회전
-```
-task main() {
-	setMotorTarget(motorB, 360, 50);
-	wait1Msec(1000);
-}
-```
+	- encoder1.c
+
 - 50의 속도로 바퀴를 360도 회전
-```
-task main() {
-	moveMotorTarget(motorB, 360, 50);
-	wait1Msec(1000);
-}
-```
+	- encoder2.c
+
 - 두 예제의 차이점은?
 ```
 ???
 ```
 - 50의 속도로 바퀴를 360도 두 번 회전
-```
-task main() {
-	setMotorTarget(motorB, 360, 50);
-	wait1Msec(1000);
-	setMotorTarget(motorB, 360, 50);
-	wait1Msec(1000);
-}
-```
+	- encoder3.c
+
 - 50의 속도로 바퀴를 360도 두 번 회전
-```
-task main() {
-	moveMotorTarget(motorB, 360, 50);
-	wait1Msec(1000);
-	moveMotorTarget(motorB, 360, 50);
-	wait1Msec(1000);
-}
-```
+	-encoder4.c
+
 
 - 로봇이 절벽에 최대한 가까이 가서 멈추게 하기
 - 계산 방법
 <img src="./pic/encoder1.png">
-- code
-```
-task main(){
-	moveMotorTarget(motorB,500,50);
-	moveMotorTarget(motorC,500,50);
-	waitUntilMotorStop(motorB);
-	waitUntilMotorStop(motorC);
-}
-```
+- encoder5.c
 
 - 사각형 박스를 따라 회전하기
 <img src="./pic/encoder2.png">
 
 #### Brake
 - 부드럽게 정지하기
-```
-task main(){
-	setMotorBrakeMode(motorB,0);
-	motor[motorB]=100;
-	wait1Msec(1000);
-}
-```
+	- brake1.c
 ```
 setMotorBrakeMode(모터이름,  mode);
 	mode = 0 → 부드럽게 정지
