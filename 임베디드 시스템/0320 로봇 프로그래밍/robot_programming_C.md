@@ -2,7 +2,7 @@
 
 ## 1. 배경 지식
 - ev3 기본 set
-<img src="">
+<img src="./pic/EV3_Core_Set.png">
 - RobotC 특징
 ```
 * 가장 널리 사용되는 C언어 기반의 문법으로 프로그래밍 가능
@@ -12,15 +12,17 @@
 * RobotC는 상용 프로그램이지만 10일의 평가판 제공
 * 자연어 라이브러리 지원
 ```
-	* 자연어 (Natural Langauge)?
-	```
-	* New, developed specifically for PLTW
-	* Goal is to lower the barrier of entry into syntax-based programming by
-	  simplifying the code and using more "natural" command names
-	* Lines of code for common robot behaviors are consolidated
-	  into single commands
-	```
-	<http://slideplayer.com/slide/9138174/>
+
+* 자연어 (Natural Langauge)?
+```
+* New, developed specifically for PLTW
+* Goal is to lower the barrier of entry into syntax-based programming by
+  simplifying the code and using more "natural" command names
+* Lines of code for common robot behaviors are consolidated
+  into single commands
+```
+
+<http://slideplayer.com/slide/9138174/>
 
 
 ## 2. 프로그래밍
@@ -29,6 +31,7 @@
 
 - 피아노 건반을 참고하여 원하는 음을 1초 재생한다.
 <img src="./pic/brick_sound1.png">
+
 ```
 task main(){
 	playTone(1000,100); // 1000Hz로 100cs 동안 소리를 낸다.
