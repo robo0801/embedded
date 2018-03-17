@@ -52,8 +52,10 @@ setLEDColor(color number);
 
 - color number
 <img src="./pic/brick_light.png">
+
 - 브릭을 1초 동안 빨간색으로 켜보기
 	- brick_light1.c
+
 
 - 교통 신호등 만들기
 	- brick_light2.c
@@ -127,12 +129,12 @@ waitUntilMotorStop(모터이름);
 	- encoder3.c
 
 - 50의 속도로 바퀴를 360도 두 번 회전
-	-encoder4.c
-
+	- encoder4.c
 
 - 로봇이 절벽에 최대한 가까이 가서 멈추게 하기
 - 계산 방법
 <img src="./pic/encoder1.png">
+
 - encoder5.c
 
 - 사각형 박스를 따라 회전하기
