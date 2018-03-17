@@ -29,64 +29,18 @@
 
 - 피아노 건반을 참고하여 원하는 음을 1초 재생한다.
 <img src="./pic/brick_sound1.png">
-
-```
-task main(){
-	playTone(1000,100); // 1000Hz로 100cs 동안 소리를 낸다. 
-	wait1Msec(1000);	// 1초 동안 기다린다. 
-}
-
-```
+	- brick_sound1.c
 
 - '학교 종이 땡땡땡' 연주
 <img src="./pic/brick_sound2.png">
-```
-task main() {
-	playTone(784,100);
-	wait1Msec(1000);
-	
-	playTone(784,100);
-	wait1Msec(1000);
-	
-	playTone(880,100);
-	wait1Msec(1000);
-	
-	playTone(880,100);
-	wait1Msec(1000);
-	
-	playTone(784,100);
-	wait1Msec(1000);
-	
-	playTone(784,100);
-	wait1Msec(1000);
-	
-	playTone(659.3,100);
-	wait1Msec(1000);
-}
-```
+	- brick_sound2.c
 
 - playSound(사운드 이름);
-```
-task main(){
-	playSound(soundBeepBeep);
-	wait1Msec(1000);
-}
-```
+	- brick_sound3.c
 
 - 설정한 사운드 파일 재생
-	* 사운드 파일 경로: C:/Program Files(x86)/Robomatter Inc/ROBOTC Development Enviroment 4.X/EV3 System Files/Sounds
-```
-task main(){
-	playSoundFile("Green");
-	wait1Msec(2000);
-	
-	playSoundFile("Red");
-	wait1Msec(2000);
-	
-	playSoundFile("Backing alert");
-	wait1Msec(2000);
-}
-```
+	- 사운드 파일 경로: C:/Program Files(x86)/Robomatter Inc/ROBOTC Development Enviroment 4.X/EV3 System Files/Sounds
+	- brick_sound4.c
 
 
 ### 2.2 Brick Light
@@ -95,33 +49,14 @@ task main(){
 ```
 setLEDColor(color number);
 ```
+
 - color number
 <img src="./pic/brick_light.png">
 - 브릭을 1초 동안 빨간색으로 켜보기
-```
-task main(){
-	setLEDColor(ledRed);
-	wait1Msec(1000);
-	setLEDColor(ledoff);
-}
-```
+	- brick_light1.c
 
 - 교통 신호등 만들기
-```
-task main(){
-	setLEDColor(ledGreen);
-	wait1Msec(3000);
-	
-	setLEDColor(ledOrangeFlash);
-	wait1Msec(3000);
-	
-	setLEDColor(ledRed);
-	wait1Msec(3000);
-	
-	setLEDColor(ledoff);
-	wait1Msec(3000);
-}
-```
+	- brick_light2.c
 
 
 ### 2.3 Brick Display
@@ -135,50 +70,15 @@ drawBmpfile(X, Y, “이미지 파일”); // 지정한 X,Y 위치에 이미지 
 ```
 
 - 원하는 문구 LCD에 출력
-```
-task main(){
-	displayTextLine(1,"원하는 문구");
-	wait1Msec(3000);
-
-	displayCenteredTextLine(1,"원하는 문구");
-	wait1Msec(3000);
-	
-	displayCenteredBigTextLine(1,"원하는 문구");
-	wait1Msec(3000);
-}
-```
+	- brick_display1.c
 
 - 이미지 파일을 LCD창에 출력
-	* 이미지 파일 경로: C:/Program Files(x86)/Robomatter Inc/ROBOTC Development Enviroment 4.X/EV3 System Files/Images
-```
-task main() {
-	drawBmpfile(0,127,"Big smile");
-	wait1Msec(2000);
-	
-	drawBmpfile(0,127,"Black eye");
-	wait1Msec(2000);
-}
-```
+	- 이미지 파일 경로: C:/Program Files(x86)/Robomatter Inc/ROBOTC Development Enviroment 4.X/EV3 System Files/Images
+	- brick_display2.c
+
 
 - 신호등 만들기
-```
-task main() {
-	playSoundFile("Green");
-	playSoundFile("Go");
-	setLEDColor(ledGreen);
-	wait1Msec(3000);
-	
-	playSoundFile("Yellow");
-	playSoundFile("Backing alert");
-	setLEDColor(ledOrangeFlash);
-	wait1Msec(3000);
-	
-	playSoundFile("Red");
-	playSoundFile("Stop");
-	setLEDColor(ledRed);
-	wait1Msec(3000);
-}
-```
+	- brick_display3.c
 
 
 ### 2.4 Large Motor
