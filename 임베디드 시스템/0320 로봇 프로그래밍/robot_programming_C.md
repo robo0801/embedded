@@ -13,14 +13,13 @@
 	* 자연어 라이브러리 지원 
 
 
-- 자연어 (Natural Langauge)?
-```
-* New, developed specifically for PLTW
-* Goal is to lower the barrier of entry into syntax-based programming by
-  simplifying the code and using more "natural" command names
-* Lines of code for common robot behaviors are consolidated
-  into single commands
-```
+* 자연어 (Natural Langauge)?
+	* New, developed specifically for PLTW
+	* Goal is to lower the barrier of entry into syntax-based programming by
+	  simplifying the code and using more "natural" command names
+	* Lines of code for common robot behaviors are consolidated
+	  into single commands
+
 -- <http://slideplayer.com/slide/9138174/>
 
 
@@ -33,9 +32,10 @@
 
 ```
 task main(){
-	playTone(1000,100); // 1000Hz로 100cs 동안 소리를 낸다.
-	wait1Msec(1000);	// 1초 동안 기다린다.
+	playTone(1000,100); // 1000Hz로 100cs 동안 소리를 낸다. 
+	wait1Msec(1000);	// 1초 동안 기다린다. 
 }
+
 ```
 
 - '학교 종이 땡땡땡' 연주
