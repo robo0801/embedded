@@ -37,8 +37,10 @@
 - EV3에서 리눅스를 사용하기 위해 전까지 부팅 SD카드를 만들었습니다.
 - SD카드를 EV3 옆쪽에 넣어줍니다. 그 다음 로봇의 전원을 켜줍니다.
 <img src="http://www.ev3dev.org/images/brickman/main-menu.png">
+
 - 끄는 방법은 좌측 상단 버튼을 누르면 다음과 같은 그림이 나옵니다.
 - 그 다음 power off에서 버튼을 누르면 됩니다.
+
 <img src="http://www.ev3dev.org/images/brickman/shutdown-menu.png">
 
 
