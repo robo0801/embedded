@@ -7,7 +7,7 @@
 
 # 2. 회로도
 - 피에조 부저는 +라고 써져 있거나 다리가 긴 쪽에 +를 연결 하면 됩니다.
-<img src="./pic/스피커_연결_회로.png" width="800" height="300">
+<img src="./pic/스피커_연결_회로.png" width="700" height="300">
 
 # 3. 프로그램
 - 프로그램 코드는 "학교 종이 땡땡땡"과 "슈퍼마리오 주제곡"이 있다.
@@ -16,4 +16,4 @@
 <img src="./pic/음계별_표준_주파수.png" width="600" height="400">
 
 # 4. 실제 사진
-<img src="./pic/실제_사진.jpg" width="600" height="400">
+<img src="./pic/실제_사진.jpg" width="600" height="350">
