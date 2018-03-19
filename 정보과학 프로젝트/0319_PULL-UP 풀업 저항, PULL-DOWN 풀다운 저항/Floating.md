@@ -1,5 +1,5 @@
 # Floating 현상과 PULL-UP & PULL-DOWN
-===================================
+
 
 ## 1. 플로팅(Floating) 현상
 - 회로가 끊어진 상태에서 입력을 받으면 주변환경에 따라 흔들린다.
@@ -19,7 +19,7 @@
 - 버튼에서의 풀업
 	- 버튼이 눌리지 않았을 때, 회로를 5V 높은 상태로 묶어준다.
 
-<img src="./pic/PULL-UP.png">
+<img src="./pic/PULL_UP.png">
 
 
 ## 3. 풀다운(PULL-DOWN) 저항
@@ -28,7 +28,7 @@
 - 버튼에서의 풀다운
 	- 버튼이 눌리지 않았을 때 회로를 낮은 상태(GND,0V)로 묶어준다.
 
-<img src="./pic/PULL-DOWN.png">
+<img src="./pic/PULL_DOWN.png">
 
 
 ## 4. 풀업, 풀다운 저항 계산 논리
