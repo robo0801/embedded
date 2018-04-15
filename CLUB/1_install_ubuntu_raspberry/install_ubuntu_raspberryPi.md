@@ -28,13 +28,13 @@
 <https://etcher.io/>
 
 - etcher를 실행시켜 줍니다.
-<img src="./pic/etcher1.png">
+<img src="./pic/etcher1.PNG">
 - 실행하고 select image를 눌러 다운받은 이미지를 선택해 줍니다.
-<img src="./pic/etcher2.png">
+<img src="./pic/etcher2.PNG">
 - 그다음 select drive에서 SD카드를 선택해 줍니다.
-<img src="./pic/etcher4.png">
+<img src="./pic/etcher4.PNG">
 - 마지막으로 Flash를 눌러줍니다.(약 10분 정도 걸립니다.)
-<img src="./pic/etcher5.png">
+<img src="./pic/etcher5.PNG">
 
 ## 3 라즈베리파이에서 실행 시키기
 - SD 카드를 컴퓨터에서 제거한 다음 라즈베리 뒷면에 넣습니다.
