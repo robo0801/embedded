@@ -21,7 +21,7 @@
 - 초음파 센서에는 4개의 핀이 있는데 양 옆에 VCC와 GND는 5V와 GND에 각각 연결한다.
 - Trig는 7번 Echo 는 6번에 연결해줍니다.
 
-<img src = "./pic/circuits.PNG">
+<img src = "./pic/circuits.PNG" width="400" height="300">
 
 ## 4. 소스코드
 - 폴더 <ultrasonic_sensor> 에 있습니다.
@@ -31,4 +31,4 @@ distance = (double)duration / 29.0 / 2.0;
 
 ## 5. 완성 사진
 
-<img src = "./pic/ultrasonic_sensor.jpg">
+<img src = "./pic/ultrasonic_sensor.jpg" width="400" height="700">

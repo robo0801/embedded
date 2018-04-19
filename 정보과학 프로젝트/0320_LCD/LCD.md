@@ -22,7 +22,7 @@
 - 사용방법
 	- 16개의 문자를 2줄로, 총 32개 문자를 표현할 수 있는 LCD를 사용
 
-<img src="./pic/lcd_use.png">
+<img src="./pic/lcd_use.png" width="1200" height="800">
 
 - 회로도
 
@@ -56,4 +56,4 @@ lcd.autoscroll();	내용을 자동으로 우에서 좌로 스크롤
 
 ## 완성 사진
 
-<img src="./pic/final.jpg">
+<img src="./pic/final.jpg" width="400" height="700">

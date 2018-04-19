@@ -2,7 +2,8 @@
 
 ## 1. Button
 - button에서 PULLUP과 PULLDOWN에 관한 이론은 따로 올렸습니다.
-- <0319_PULL-UP 풀업 저항, PULL-DOWN 풀다운 저항>
+- <0319_PULL-UP 풀업 저항, PULL-DOWN 풀다운 저항> 
+- <https://github.com/robo0801/embedded/blob/master/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/0319_PULL-UP%20%ED%92%80%EC%97%85%20%EC%A0%80%ED%95%AD%2C%20PULL-DOWN%20%ED%92%80%EB%8B%A4%EC%9A%B4%20%EC%A0%80%ED%95%AD/Floating.md#floating-%ED%98%84%EC%83%81%EA%B3%BC-pull-up--pull-down>
 
 
 ## 2. Button 내부 PULLUP 사용
