@@ -2,7 +2,7 @@
 
 ## 1. Button
 - button에서 PULLUP과 PULLDOWN에 관한 이론은 따로 올렸습니다.
-<0319_PULL-UP 풀업 저항, PULL-DOWN 풀다운 저항>
+- <0319_PULL-UP 풀업 저항, PULL-DOWN 풀다운 저항>
 
 
 ## 2. Button 내부 PULLUP 사용
@@ -14,7 +14,7 @@
 
 ### 2.2 연결방법
 
-<img src="./pic/inputPullupButton.png">
+<img src="./pic/inputPullupButton.png" width="400" height="300">
 
 - 풀업 저항을 직접 만들어서 사용하는 경우 VCC와 버튼 사이에 저항을 넣고, 저항과 버튼 사이에서 선을 빼서 2번 핀으로 연결하는 형태가 됩니다. 
 - 여기서는 단순하게 2번 핀 – 스위치 – GND 로 연결하는 대신 2번 핀 내부의 풀업 저항을 활성화 시킵니다.
@@ -37,7 +37,7 @@
 ### 3.2 아두이노 회로도
 - 다음 사진과 같이 연결하면 된다.
 
-<img src="./pic/circuits.png">
+<img src="./pic/circuits.png" width="800" height="350">
 
 - 여기서 LED는 RGB를 연결하였고 가장 긴 다리는 GND에 연결하면 된다.
 
@@ -45,3 +45,8 @@
 - button_3LED 에 코드를 첨부하였다.
 - 버튼을 누르고 있을 때 반응하여 불이 켜지고 아니면 불이 꺼진다.
 - 동시에 여러개를 누르면 섞인 색이 나온다.
+
+
+## 4. 완성 사진
+
+<img src="./pic/final.jpg" width="400" height="700">
