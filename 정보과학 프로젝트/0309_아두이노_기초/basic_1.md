@@ -1,11 +1,12 @@
 # 1. Arduino 란?
 오픈 소스를 기반으로 한 단일 보드 마이크로컨트롤러로 완성된 보드(상품)와 관련 개발 도구 및 환경을 말한다.
-![arduino_uno](https://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg)
+<img_src ="./pic/Arduino_Uno.jpg">
 
 # 2. Arduino 구조
 ## 2.1 핀 배열
-![arduino_pin](https://raw.githubusercontent.com/robo0801/embedded/master/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/0309_%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8_%EA%B8%B0%EC%B4%88/arduino_pin.png)
+<img_src ="./pic/arduino_pin.png">
 - 아두이노 핀은 GND, VCC, Digital, Analog 가 있다.
+
 * digital: 
 	- 사진 위쪽에 2번부터 13번까지가 digital 핀으로 사용할 수 있는 부분이다. 
 	- 디지털은 0과 1로 불연속적인 값을 줄 수 있다.
@@ -27,7 +28,8 @@
 
 ## 2.2 전원 입력부
 아두이노의 전원 입력부는 3곳이 있다.
-![아두이노 전원](https://raw.githubusercontent.com/robo0801/embedded/master/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/0309_%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8_%EA%B8%B0%EC%B4%88/%EC%A0%84%EC%9B%90%20%EC%9E%85%EB%A0%A5.jpg)
+<img_src ="./pic/전원_입력.jpg">
+
 그림에 보이는 2군데와 옆쪽에 은색으로 튀어나와 있는 부분이다.
 2군데 중 하나는 핀에서 VIN에 해당한다.
 3군데 중 어느 한 곳만 연결해도 전원이 들어온다.
