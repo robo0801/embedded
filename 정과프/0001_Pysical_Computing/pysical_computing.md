@@ -13,13 +13,13 @@
 - 마이크로프로세서와 입출력 모듈, 기억장치를 역할을 하는 하나의 칩
 - 기능을 설정하고 정해진 일을 수행하도록 프로그래밍 되어 동작
 
- <img_src="./pic/micro_controller1.png"> 
+ <img_src="./pic/micro_controller1.png"> </img_src>
 
- <img_src="./pic/micro_controller2.png"> 
+ <img_src="./pic/micro_controller2.png"> </img>
 
 ## 3.저항계산
 - 옴의 법칙
- <img_src="./pic/Resistance.png"> 
+ <img="./pic/Resistance.png"> </img>
 
 ``` 
 R = V/I 
