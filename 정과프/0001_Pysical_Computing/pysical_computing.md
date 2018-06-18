@@ -14,14 +14,11 @@
 - 기능을 설정하고 정해진 일을 수행하도록 프로그래밍 되어 동작
 
 ![micro_controller1](./pic/micro_controller1.png)
- <img_src="./pic/micro_controller1.png"> </img_src>
 ![micro_controller1](./pic/micro_controller2.png)
- <img_src="./pic/micro_controller2.png"> </img>
 
 ## 3.저항계산
 - 옴의 법칙
 ![micro_controller1](./pic/Resistance.png)
- <img="./pic/Resistance.png"> </img>
 
 ``` 
 R = V/I 
