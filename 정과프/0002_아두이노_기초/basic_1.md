@@ -4,7 +4,7 @@
 
 # 2. Arduino 구조
 ## 2.1 핀 배열
-<img_src ="./pic/arduino_pin.png">
+![핀 배열](./pic/arduino_pin.png)
 - 아두이노 핀은 GND, VCC, Digital, Analog 가 있다.
 
 * digital: 
@@ -28,7 +28,8 @@
 
 ## 2.2 전원 입력부
 아두이노의 전원 입력부는 3곳이 있다.
-<img_src ="./pic/전원_입력.jpg">
+![전원 입력부](./pic/전원_입력.jpg)
+
 
 그림에 보이는 2군데와 옆쪽에 은색으로 튀어나와 있는 부분이다.
 2군데 중 하나는 핀에서 VIN에 해당한다.
