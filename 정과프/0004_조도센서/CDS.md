@@ -13,9 +13,9 @@
 ## 회로도
 - CDS는 연결방향에 관계없이 사용 가능하다.
 
-![CDS_기본회로](CDS_기본회로.png)
+![CDS_기본회로](./pic/CDS_기본회로.png)
 
-![CDS_LED_회로도](CDS_LED_회로도.png)
+![CDS_LED_회로도](./pic/CDS_LED_회로도.png)
 
 - 이 사진과 같이 회로를 구성하고 진행한다.
 - LED는 긴 다리가 + 이다.
@@ -44,4 +44,4 @@
 
 # 완성 사진
 
-![final](final.jpg)
+![final](./pic/final.jpg)
