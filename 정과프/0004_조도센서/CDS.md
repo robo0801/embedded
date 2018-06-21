@@ -29,7 +29,7 @@
 # 3.CDS_LED_analog
 
 ## 회로도
-- digital 회로에서 LED에서 13번에서 10번으로 이동시킨다.
+- digital 회로에서 LED를 13번에서 10번으로 이동시킨다.
 
 ## sketch Code
 - 코드는 폴더 내의 CDS_LED_analog_sketch 코드를 보세요.
