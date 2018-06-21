@@ -56,4 +56,4 @@ lcd.autoscroll();	내용을 자동으로 우에서 좌로 스크롤
 
 ## 완성 사진
 
-<img src="./pic/final.jpg" width="400" height="700">
+<img src="./pic/final.jpg" width="250" height="550">
